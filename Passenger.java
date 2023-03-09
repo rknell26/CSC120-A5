@@ -5,4 +5,8 @@ public class Passenger {
     public Passenger(String name) {
         this.name = name;
     }
+    public String getPassenger() {
+        return this.name;
+    }
+
 }
